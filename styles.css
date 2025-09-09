@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+*{
+	box-sizing: border-box;
+}
+.hero{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+}
+
+img{
+	height: 200px;
+	width: 400px;
+	object-fit: cover;
+}
+
+button{
+	background-color: red;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
